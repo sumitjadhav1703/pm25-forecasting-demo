@@ -61,9 +61,23 @@ This Space visualizes precomputed PM2.5 predictions saved from the Kaggle GPU ru
 
 - **Competition:** ANRF AISEHack Phase 2 — Theme 2 (IIT Delhi)  
 - **Team:** MGM  
-- **Final Rank:** 2  
-- **Final Score:** 0.8795 (sMAPE-based metric)  
-- Improved from rank 33 (score 56.232) → rank 2 (score 0.8795)
+- **Phase 2 Rank:** 2  
+- **Final Score:** 0.8795 (sMAPE-based)
+
+## Kaggle Leaderboard Proof
+
+The final private leaderboard for **ANRF - AISEHack - Phase 2 - Theme 2 - Pollution Forecasting (IITD)** shows:
+
+* **Team:** Binary Bombers
+* **Final Rank:** 2
+* **Final Score:** 0.8795
+* **Entries:** 21
+
+> Note: Kaggle competition pages may require login to view the leaderboard.
+
+![Kaggle Phase 2 Rank 2 Proof](assets/proof/kaggle-phase2-rank2.png)
+
+Competition link: https://www.kaggle.com/competitions/anrf-aise-hack-phase-2-theme-2-pollution-forecasting-iitd
 
 ## Dataset
 

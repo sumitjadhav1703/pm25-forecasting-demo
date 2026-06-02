@@ -120,7 +120,7 @@ with gr.Blocks(
 **Training:** Kaggle T4 GPU · ANRF competition dataset · 4 months × 16 atmospheric features  
 **Grid:** 140 × 124 spatial points · Northern India  
 **Input:** 10 hours of atmospheric data → **Output:** 16-hour PM2.5 forecast  
-**Competition Rank:** 24 · Final Score: 21.244 (sMAPE-based)
+**Competition Rank:** 2 · Final Score: 0.8795 (sMAPE-based)
 """)
 
     gr.Markdown("**PM2.5 guide:** 0–15 Good · 15–35 Moderate · 35–55 Sensitive · 55–150 Unhealthy · 150+ Hazardous")
