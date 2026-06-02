@@ -33,7 +33,6 @@ trained to forecast PM2.5 air pollution levels across a 140×124 spatial grid ov
 
 - Live Demo: https://huggingface.co/spaces/sumit1703/pm25-forecasting
 - Dataset: https://huggingface.co/datasets/sumit1703/pm25-forecasting-data
-- GitHub: https://github.com/sumitjadhav1703/pm25-forecasting-demo
 
 ## Important Note
 
