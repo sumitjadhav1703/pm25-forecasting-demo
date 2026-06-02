@@ -4,7 +4,7 @@ import json
 import numpy as np
 
 # ── UPDATE THIS after creating your HF dataset repo ──────────────────────────
-HF_REPO_ID = "REPLACE_WITH_YOUR_HF_USERNAME/pm25-forecasting-data"
+HF_REPO_ID = "sumit1703/pm25-forecasting-data"
 # ─────────────────────────────────────────────────────────────────────────────
 
 LOCAL_DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
