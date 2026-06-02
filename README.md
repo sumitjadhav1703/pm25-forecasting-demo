@@ -9,6 +9,17 @@ python_version: "3.12"
 app_file: app.py
 pinned: false
 license: mit
+short_description: PM2.5 forecasting demo using precomputed AISEHack predictions
+datasets:
+  - sumit1703/pm25-forecasting-data
+tags:
+  - gradio
+  - air-quality
+  - pm25
+  - pollution-forecasting
+  - deep-learning
+  - data-visualization
+suggested_hardware: cpu-basic
 ---
 
 # 🌬️ PM2.5 Pollution Forecasting Demo
@@ -17,6 +28,16 @@ license: mit
 
 This demo visualizes predictions from a **ConvLSTM + Fourier Neural Operator (FNO)** hybrid model
 trained to forecast PM2.5 air pollution levels across a 140×124 spatial grid over Northern India.
+
+## Live Links
+
+- Live Demo: https://huggingface.co/spaces/sumit1703/pm25-forecasting
+- Dataset: https://huggingface.co/datasets/sumit1703/pm25-forecasting-data
+- GitHub: https://github.com/sumitjadhav1703/pm25-forecasting-demo
+
+## Important Note
+
+This Space visualizes precomputed PM2.5 predictions saved from the Kaggle GPU run. It does not run live model inference, training, or torch at runtime.
 
 ## How to Use
 

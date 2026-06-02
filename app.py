@@ -78,6 +78,7 @@ with gr.Blocks(
 
     gr.Markdown("# 🌬️ PM2.5 Pollution Forecasting")
     gr.HTML('<p class="subtitle">ANRF AISEHack Phase 2 — Deep Learning Air Quality Forecast over India</p>')
+    gr.Markdown("This demo visualizes precomputed predictions from saved `.npy` files. It does not run live model inference.")
 
     with gr.Row():
         with gr.Column(scale=1):
@@ -121,6 +122,8 @@ with gr.Blocks(
 **Input:** 10 hours of atmospheric data → **Output:** 16-hour PM2.5 forecast  
 **Competition Rank:** 24 · Final Score: 21.244 (sMAPE-based)
 """)
+
+    gr.Markdown("**PM2.5 guide:** 0–15 Good · 15–35 Moderate · 35–55 Sensitive · 55–150 Unhealthy · 150+ Hazardous")
 
     # ── Wire up callbacks ────────────────────────────────────────────────────
     inputs_list  = [window_slider, hour_slider]
