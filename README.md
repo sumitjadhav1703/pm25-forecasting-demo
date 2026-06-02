@@ -40,8 +40,8 @@ trained to forecast PM2.5 air pollution levels across a 140×124 spatial grid ov
 - **Competition:** ANRF AISEHack Phase 2 — Theme 2 (IIT Delhi)  
 - **Team:** MGM  
 - **Final Rank:** 2  
-- **Final Score:** 21.244 (sMAPE-based metric)  
-- Improved from rank 33 (score 56.232) → rank 24 (score 21.244)
+- **Final Score:** 0.8795 (sMAPE-based metric)  
+- Improved from rank 33 (score 56.232) → rank 2 (score 0.8795)
 
 ## Dataset
 
