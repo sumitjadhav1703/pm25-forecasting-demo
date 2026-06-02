@@ -4,3 +4,5 @@ matplotlib==3.9.2
 huggingface_hub==0.25.2
 Pillow==10.4.0
 pydantic==2.10.6
+fastapi==0.112.4
+starlette==0.38.6
