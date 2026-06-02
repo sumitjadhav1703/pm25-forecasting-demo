@@ -60,7 +60,7 @@ This Space visualizes precomputed PM2.5 predictions saved from the Kaggle GPU ru
 ## Competition Results
 
 - **Competition:** ANRF AISEHack Phase 2 — Theme 2 (IIT Delhi)  
-- **Team:** MGM  
+- **Team:** Binary Bombers  
 - **Phase 2 Rank:** 2  
 - **Final Score:** 0.8795 (sMAPE-based)
 

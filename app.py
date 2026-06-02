@@ -38,7 +38,10 @@ def update(window_slider: int, hour_slider: int):
     # Shared color scale so the two heatmaps are directly comparable
     combined_max = max(float(input_frame.max()), float(pred_frame.max()))
     vmin = 0.0
-    vmax = min(max(combined_max * 1.1, 50.0), 300.0)  # at least 0–50 scale
+    if combined_max > 300.0:
+        vmax = combined_max * 1.05
+    else:
+        vmax = min(max(combined_max * 1.1, 50.0), 300.0)
 
     original_window = int(SAMPLE_IDX[w])
 
@@ -57,7 +60,7 @@ def update(window_slider: int, hour_slider: int):
     )
 
     stats = compute_stats(pred_frame, input_frame)
-    stats_md = "\n".join(f"**{k}:** {v}" for k, v in stats.items())
+    stats_md = "### Forecast Statistics\n\n" + "\n".join(f"**{k}:** {v}" for k, v in stats.items())
 
     return input_img, pred_img, stats_md
 
@@ -112,7 +115,7 @@ with gr.Blocks(
             height=380,
         )
 
-    stats_box = gr.Markdown(label="Forecast Statistics")
+    stats_box = gr.Markdown()
 
     gr.Markdown("""
 ---
