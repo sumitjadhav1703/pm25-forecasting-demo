@@ -9,7 +9,7 @@ python_version: "3.12"
 app_file: app.py
 pinned: false
 license: mit
-short_description: PM2.5 forecasting demo using precomputed AISEHack predictions
+short_description: PM2.5 forecast demo with saved predictions
 datasets:
   - sumit1703/pm25-forecasting-data
 tags:
